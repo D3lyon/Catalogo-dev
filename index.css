@@ -36,16 +36,53 @@ h1{
     letter-spacing: 30px;
     position: relative;
     left: 10px;
+    transition: ease-out 0.3s;
 }
 
+h1:hover{
+    cursor: default;
+    transition: ease-in 0.3s;
+    transform: scale(1.02);
+}
 
+#centro{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-family: "Century Gothic";
+    font-weight: bold;
+    font-size: 18px;
+    color: #FFFFFF;
+    position: relative;
+    left: -150px;
+    opacity: 0.6;
+    top: 42px;
+}
 
+#cassino{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-family: "Century Gothic";
+    font-weight: bold;
+    font-size: 18px;
+    color: #FFFFFF;
+    position: relative;
+    left: 150px;
+    opacity: 0.6;
+    margin-top: 0px;
+}
 
+#cassino:hover, #centro:hover{
+    cursor: default;
+    opacity: 1;
+    transition: ease-in 0.3s;
+}
 
 @media (max-width: 768px) {
     html{
         overflow: hidden;
-        background-image: linear-gradient(to bottom, black, rgb(37, 37, 37), black);
+        background-color: #000000;
     }
 
     #bell1, #bell2, #bell{
