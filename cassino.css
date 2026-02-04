@@ -10,7 +10,7 @@ html{
     position: absolute;
     width: 110%;
     height: 700px;
-    background-image: linear-gradient(rgb(119, 99, 119),transparent);
+    background-image: linear-gradient(#1d2a23,transparent);
     
     margin-top: -30px;
     margin-left: -30px;
@@ -44,35 +44,146 @@ h2{
     transition: ease-out 0.3s;
 }
 
-#bloco1{
-    position: relative;
+#foto2{
+    position: absolute;
     width: 26.66%;
     height: 400px;
     background-color: white;
-    margin-top: 70px;
+    margin-top: 30px;
     border-radius: 50px;
     left: 5%;
-    box-shadow: 0 0 50px #ffffffa4;
+    box-shadow: 0 0 50px #7c7c7ca4;
+    
 }
 
 #bloco2{
-    position: relative;
+    position: absolute;
     width: 26.66%;
     height: 400px;
     background-color: white;
-    margin-top: -400px;
+    margin-top: 30px;
     border-radius: 50px;
-    left: 38%;
-    box-shadow: 0 0 50px #ffffffa4;
+    left: 37%;
+    box-shadow: 0 0 50px #7c7c7ca4;
 }
 
-#bloco3{
-    position: relative;
+#foto1{
+     position: absolute;
     width: 26.66%;
     height: 400px;
     background-color: white;
-    margin-top: -400px;
+    margin-top: 30px;
     border-radius: 50px;
-    left: 70%;
-    box-shadow: 0 0 50px #ffffffa4;
+    left: 69%;
+    box-shadow: 0 0 50px #7c7c7ca4;
+}
+
+#desc{
+    position: absolute;
+    width: 26.66%;
+    height: 400px;
+    font-family: "Century Gothic";
+    font-weight: bold;
+    font-size: 18px;
+    color: #1d2a23;
+    text-align: center;
+    left: 37%;
+    margin-top: 110px;
+    line-height: 1.7;
+    z-index: 1;
+
+}
+
+#picture{
+    width: 700px;
+    height: 500px;
+    border-radius: 20px;
+    z-index: 2;
+    top: 1000px;
+    position: absolute;
+    object-fit: cover;
+    left: 5%;
+}
+
+#linha,#linha2{
+    width: 90%;
+    height: 6px;
+    background-image: linear-gradient(to right, #aa8e98, #e7e7e7, #aa8e98);
+    position: relative;
+    left: 5%;
+}
+
+#linha2{
+    margin-top: 65px;
+}   
+
+#linha{
+    margin-top: 530px;
+}
+
+#Catalogo{
+    font-family: "Century Gothic";
+    font-weight: bold;
+    font-size: 30px;
+    color: #1d2a23;
+    text-align: center;
+    margin-top: -58px;
+    position: relative;
+    opacity: 0.7;
+
+}
+
+#TITULO1{
+    font-family: theseasons;
+font-style: thin;
+font-weight: 100;
+letter-spacing: 3px;
+font-size: 70px;
+left: 63%;
+position: relative;
+top: 10px;
+}
+
+@font-face {
+    font-family: 'theseasons'; 
+    src: url('fonnts.com-theseasons-reg.otf') format('truetype');
+    font-weight: normal;
+    font-style: normal;
+}
+
+@font-face {
+    font-family: 'signature'; 
+    src: url('SignatureVP-PersonalUse.ttf') format('truetype');
+    font-weight: normal;
+    font-style: normal;
+}
+
+#Serenidade{
+    font-family: 'signature' ;
+font-size: 50px;
+left: 66%;
+position: relative;
+top: -75px;
+}
+
+#linha3{
+    width: 20%;
+    height: 4px;
+    background-image: linear-gradient(to right, #aa8e98, #e7e7e7, #aa8e98);
+    position: relative;
+    left: 63%;
+    margin-top: -120px;
+}
+
+#Serenidade_resumo{
+    font-family: "Century Gothic";
+    font-weight: normal;
+    font-size: 18px;
+    color: #1d2a23;
+    text-align: center;
+    left: 60%;
+    position: relative;
+    top: -100px;
+    line-height: 1.7;
+    width: 25%;
 }
